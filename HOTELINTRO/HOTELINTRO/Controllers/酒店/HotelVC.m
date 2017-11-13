@@ -26,7 +26,8 @@ static NSString *InformationCellID = @"InformationCellID";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = local(@"酒店信息");
-    self.view.backgroundColor = SCHEXCOLOR(0xf0f0f0);
+//    self.view.backgroundColor = SCHEXCOLOR(0xf0f0f0);
+    self.view.backgroundColor = [UIColor whiteColor];
     self.dataArray = [NSMutableArray array];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:local(@"登录") style:UIBarButtonItemStylePlain target:self action:@selector(showLeftView)];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:local(@"搜索") style:UIBarButtonItemStylePlain target:self action:@selector(showSearchVC)];
