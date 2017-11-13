@@ -1,0 +1,643 @@
+2017-11-10 07:13:13 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd7b15746e0; archive(resolved)='<IDEArchive: 0x7fd7b1c1e020>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team(resolved)='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fd7b15746e0; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fd7b16d1c80; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	<IDEDistributionContext: 0x7fd7b2325930; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	<IDEDistributionContext: 0x7fd7b22c9240; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	<IDEDistributionContext: 0x7fd7b2267490; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	<IDEDistributionContext: 0x7fd7c74ebcb0; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	<IDEDistributionContext: 0x7fd7b22f1120; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	<IDEDistributionContext: 0x7fd7b154d3a0; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	<IDEDistributionContext: 0x7fd7ce118150; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='<IDEProvisioningBasicTeam 0x7fd7cda57050: teamID: 6WW46SSNLR, teamName: haocai wang>'>
+	<IDEDistributionContext: 0x7fd7cdf6ca30; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fd7c64e0db0>', team='(null)'>
+	<IDEDistributionContext: 0x7fd7b1badbd0; archive = '<IDEArchive: 0x7fd7b1c1e020>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fd7b15746e0>
+2017-11-10 07:13:13 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-11-10 07:13:13 +0000  Processing step: IDEDistributionCopyItemStep
+2017-11-10 07:13:13 +0000  Running /usr/bin/ditto '-V' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app'
+2017-11-10 07:13:13 +0000  >>> Copying /Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app 
+2017-11-10 07:13:13 +0000  copying file ./_CodeSignature/CodeResources ... 
+2017-11-10 07:13:13 +0000  18194 bytes for ./_CodeSignature/CodeResources
+2017-11-10 07:13:13 +0000  copying file ./AppIcon20x20@2x.png ... 
+2017-11-10 07:13:13 +0000  5234 bytes for ./AppIcon20x20@2x.png
+2017-11-10 07:13:13 +0000  copying file ./AppIcon20x20@3x.png ... 
+2017-11-10 07:13:13 +0000  11169 bytes for ./AppIcon20x20@3x.png
+copying file ./AppIcon29x29@2x.png ... 
+2017-11-10 07:13:13 +0000  10368 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon29x29@3x.png ... 
+2017-11-10 07:13:13 +0000  22049 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon40x40@2x.png ... 
+2017-11-10 07:13:13 +0000  18901 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon40x40@3x.png ... 
+2017-11-10 07:13:13 +0000  40127 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon60x60@2x.png ... 
+2017-11-10 07:13:13 +0000  40127 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon60x60@3x.png ... 
+2017-11-10 07:13:13 +0000  84223 bytes for ./AppIcon60x60@3x.png
+2017-11-10 07:13:13 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2017-11-10 07:13:13 +0000  386 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2017-11-10 07:13:13 +0000  2158408 bytes for ./Assets.car
+2017-11-10 07:13:13 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+115 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./embedded.mobileprovision ... 
+7432 bytes for ./embedded.mobileprovision
+copying file ./en.lproj/InfoPlist.strings ... 
+78 bytes for ./en.lproj/InfoPlist.strings
+copying file ./en.lproj/Localizable.strings ... 
+680 bytes for ./en.lproj/Localizable.strings
+copying file ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+2017-11-10 07:13:13 +0000  copying file ./Frameworks/AFNetworking.framework/AFNetworking ... 
+2017-11-10 07:13:13 +0000  2748192 bytes for ./Frameworks/AFNetworking.framework/AFNetworking
+2017-11-10 07:13:13 +0000  copying file ./Frameworks/AFNetworking.framework/Info.plist ... 
+746 bytes for ./Frameworks/AFNetworking.framework/Info.plist
+copying file ./Frameworks/Masonry.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/Masonry.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Masonry.framework/Info.plist ... 
+736 bytes for ./Frameworks/Masonry.framework/Info.plist
+copying file ./Frameworks/Masonry.framework/Masonry ... 
+1083520 bytes for ./Frameworks/Masonry.framework/Masonry
+copying file ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2017-11-10 07:13:13 +0000  2202 bytes for ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/MBProgressHUD.framework/Info.plist ... 
+748 bytes for ./Frameworks/MBProgressHUD.framework/Info.plist
+copying file ./Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2017-11-10 07:13:13 +0000  797712 bytes for ./Frameworks/MBProgressHUD.framework/MBProgressHUD
+copying file ./Frameworks/MJRefresh.framework/_CodeSignature/CodeResources ... 
+3917 bytes for ./Frameworks/MJRefresh.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/MJRefresh.framework/Info.plist ... 
+741 bytes for ./Frameworks/MJRefresh.framework/Info.plist
+copying file ./Frameworks/MJRefresh.framework/MJRefresh ... 
+2017-11-10 07:13:13 +0000  1293072 bytes for ./Frameworks/MJRefresh.framework/MJRefresh
+2017-11-10 07:13:13 +0000  copying file ./Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png ... 
+1033 bytes for ./Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png
+copying file ./Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings ... 
+1372 bytes for ./Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings
+copying file ./Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings ... 
+1194 bytes for ./Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+2017-11-10 07:13:13 +0000  copying file ./Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings ... 
+2017-11-10 07:13:13 +0000  773 bytes for ./Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+2017-11-10 07:13:13 +0000  copying file ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2017-11-10 07:13:13 +0000  2202 bytes for ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+2017-11-10 07:13:13 +0000  copying file ./Frameworks/SDWebImage.framework/Info.plist ... 
+2017-11-10 07:13:13 +0000  742 bytes for ./Frameworks/SDWebImage.framework/Info.plist
+copying file ./Frameworks/SDWebImage.framework/SDWebImage ... 
+2017-11-10 07:13:13 +0000  2073984 bytes for ./Frameworks/SDWebImage.framework/SDWebImage
+2017-11-10 07:13:13 +0000  copying file ./HOTELINTRO ... 
+2017-11-10 07:13:13 +0000  2408000 bytes for ./HOTELINTRO
+copying file ./Info.plist ... 
+1713 bytes for ./Info.plist
+copying file ./LaunchImage-1100-2436h@3x.png ... 
+2017-11-10 07:13:13 +0000  7033265 bytes for ./LaunchImage-1100-2436h@3x.png
+copying file ./LaunchImage-700-568h@2x.png ... 
+2017-11-10 07:13:13 +0000  2001836 bytes for ./LaunchImage-700-568h@2x.png
+copying file ./LaunchImage-700@2x.png ... 
+1701763 bytes for ./LaunchImage-700@2x.png
+copying file ./LaunchImage-800-667h@2x.png ... 
+2017-11-10 07:13:13 +0000  2713133 bytes for ./LaunchImage-800-667h@2x.png
+copying file ./LaunchImage-800-Portrait-736h@3x.png ... 
+2017-11-10 07:13:13 +0000  7054127 bytes for ./LaunchImage-800-Portrait-736h@3x.png
+copying file ./PkgInfo ... 
+2017-11-10 07:13:13 +0000  8 bytes for ./PkgInfo
+copying file ./zh-Hans.lproj/InfoPlist.strings ... 
+81 bytes for ./zh-Hans.lproj/InfoPlist.strings
+copying file ./zh-Hans.lproj/LaunchScreen.strings ... 
+1 bytes for ./zh-Hans.lproj/LaunchScreen.strings
+copying file ./zh-Hans.lproj/Localizable.strings ... 
+278 bytes for ./zh-Hans.lproj/Localizable.strings
+copying file ./zh-Hant.lproj/InfoPlist.strings ... 
+81 bytes for ./zh-Hant.lproj/InfoPlist.strings
+copying file ./zh-Hant.lproj/LaunchScreen.strings ... 
+1 bytes for ./zh-Hant.lproj/LaunchScreen.strings
+copying file ./zh-Hant.lproj/Localizable.strings ... 
+278 bytes for ./zh-Hant.lproj/Localizable.strings
+2017-11-10 07:13:13 +0000  /usr/bin/ditto exited with 0
+2017-11-10 07:13:13 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-11-10 07:13:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd7cc13c110 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fd7d12cc250:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/AFNetworking.framework'>'>
+2017-11-10 07:13:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd7b22e9530 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fd7c6fdc330:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MBProgressHUD.framework'>'>
+2017-11-10 07:13:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd7cfe016f0 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fd7b1f67010:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MJRefresh.framework'>'>
+2017-11-10 07:13:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd7b1d777a0 'org.cocoapods.Masonry' '<DVTFilePath:0x7fd7cfe620e0:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/Masonry.framework'>'>
+2017-11-10 07:13:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd7d07f17a0 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fd7d1311610:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/SDWebImage.framework'>'>
+2017-11-10 07:13:13 +0000  Processing step: IDEDistributionItemRemovalStep
+2017-11-10 07:13:13 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-11-10 07:13:13 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2017-11-10 07:13:13 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-11-10 07:13:13 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2017-11-10 07:13:13 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-11-10 07:13:13 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-11-10 07:13:13 +0000  Processing step: IDEDistributionSymbolsStep
+2017-11-10 07:13:13 +0000  Processing symbols for AFNetworking.framework
+2017-11-10 07:13:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/AFNetworking.framework' '--link-dest' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:13 +0000  building file list ... 
+2017-11-10 07:13:13 +0000   0 files...2017-11-10 07:13:13 +0000  5 files to consider
+2017-11-10 07:13:13 +0000  AFNetworking.framework/
+2017-11-10 07:13:13 +0000  AFNetworking.framework/_CodeSignature/
+2017-11-10 07:13:13 +0000  
+2017-11-10 07:13:13 +0000  sent 225 bytes  received 32 bytes  514.00 bytes/sec
+total size is 980.17K  speedup is 3905.43
+2017-11-10 07:13:13 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '--link-dest' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:13 +0000  building file list ... 
+2017-11-10 07:13:13 +0000   0 files...2017-11-10 07:13:13 +0000  37 files to consider
+2017-11-10 07:13:13 +0000  ./
+2017-11-10 07:13:13 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+2017-11-10 07:13:13 +0000  HOTELINTRO.app.dSYM/
+HOTELINTRO.app.dSYM/Contents/
+HOTELINTRO.app.dSYM/Contents/Resources/
+HOTELINTRO.app.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJRefresh.framework.dSYM/
+MJRefresh.framework.dSYM/Contents/
+MJRefresh.framework.dSYM/Contents/Resources/
+MJRefresh.framework.dSYM/Contents/Resources/DWARF/
+Masonry.framework.dSYM/
+Masonry.framework.dSYM/Contents/
+Masonry.framework.dSYM/Contents/Resources/
+Masonry.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+2017-11-10 07:13:13 +0000  
+2017-11-10 07:13:13 +0000  sent 1.18K bytes  received 170 bytes  2.68K bytes/sec
+total size is 13.83M  speedup is 10555.42
+2017-11-10 07:13:13 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:13 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Symbols' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/AFNetworking.framework.dSYM/Contents/Resources/Dwarf/AFNetworking'
+2017-11-10 07:13:14 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/AFNetworking.framework.dSYM/Contents/Resources/Dwarf/AFNetworking [armv7, 0.075869 seconds]:
+/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/AFNetworking.framework.dSYM/Contents/Resources/Dwarf/AFNetworking [arm64, 0.075869 seconds]:
+2017-11-10 07:13:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-10 07:13:14 +0000  Processing symbols for MBProgressHUD.framework
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/MBProgressHUD.framework' '--link-dest' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  5 files to consider
+2017-11-10 07:13:14 +0000  MBProgressHUD.framework/
+2017-11-10 07:13:14 +0000  MBProgressHUD.framework/_CodeSignature/
+2017-11-10 07:13:14 +0000  
+2017-11-10 07:13:14 +0000  sent 231 bytes  received 32 bytes  526.00 bytes/sec
+total size is 303.85K  speedup is 1183.05
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '--link-dest' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  37 files to consider
+2017-11-10 07:13:14 +0000  ./
+2017-11-10 07:13:14 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+HOTELINTRO.app.dSYM/
+HOTELINTRO.app.dSYM/Contents/
+HOTELINTRO.app.dSYM/Contents/Resources/
+HOTELINTRO.app.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJRefresh.framework.dSYM/
+MJRefresh.framework.dSYM/Contents/
+MJRefresh.framework.dSYM/Contents/Resources/
+MJRefresh.framework.dSYM/Contents/Resources/DWARF/
+Masonry.framework.dSYM/
+Masonry.framework.dSYM/Contents/
+Masonry.framework.dSYM/Contents/Resources/
+Masonry.framework.dSYM/Contents/Resources/DWARF/
+2017-11-10 07:13:14 +0000  SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+2017-11-10 07:13:14 +0000  
+2017-11-10 07:13:14 +0000  sent 1.25K bytes  received 242 bytes  2.96K bytes/sec
+total size is 13.83M  speedup is 9554.12
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Symbols' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/MBProgressHUD.framework.dSYM/Contents/Resources/Dwarf/MBProgressHUD'
+2017-11-10 07:13:14 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/MBProgressHUD.framework.dSYM/Contents/Resources/Dwarf/MBProgressHUD [armv7, 0.043781 seconds]:
+/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/MBProgressHUD.framework.dSYM/Contents/Resources/Dwarf/MBProgressHUD [arm64, 0.043781 seconds]:
+2017-11-10 07:13:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-10 07:13:14 +0000  Processing symbols for MJRefresh.framework
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework' '--link-dest' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  13 files to consider
+2017-11-10 07:13:14 +0000  MJRefresh.framework/
+2017-11-10 07:13:14 +0000  MJRefresh.framework/MJRefresh.bundle/
+MJRefresh.framework/MJRefresh.bundle/en.lproj/
+2017-11-10 07:13:14 +0000  MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/
+MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/
+MJRefresh.framework/_CodeSignature/
+2017-11-10 07:13:14 +0000  
+2017-11-10 07:13:14 +0000  sent 487 bytes  received 56 bytes  1.06K bytes/sec
+total size is 422.49K  speedup is 796.73
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '--link-dest' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  37 files to consider
+2017-11-10 07:13:14 +0000  ./
+2017-11-10 07:13:14 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+HOTELINTRO.app.dSYM/
+HOTELINTRO.app.dSYM/Contents/
+HOTELINTRO.app.dSYM/Contents/Resources/
+HOTELINTRO.app.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJRefresh.framework.dSYM/
+MJRefresh.framework.dSYM/Contents/
+MJRefresh.framework.dSYM/Contents/Resources/
+MJRefresh.framework.dSYM/Contents/Resources/DWARF/
+Masonry.framework.dSYM/
+Masonry.framework.dSYM/Contents/
+2017-11-10 07:13:14 +0000  Masonry.framework.dSYM/Contents/Resources/
+Masonry.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+2017-11-10 07:13:14 +0000  
+2017-11-10 07:13:14 +0000  sent 1.25K bytes  received 242 bytes  2.96K bytes/sec
+total size is 13.83M  speedup is 9554.12
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Symbols' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/MJRefresh.framework.dSYM/Contents/Resources/Dwarf/MJRefresh'
+2017-11-10 07:13:14 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/MJRefresh.framework.dSYM/Contents/Resources/Dwarf/MJRefresh [armv7, 0.021773 seconds]:
+/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/MJRefresh.framework.dSYM/Contents/Resources/Dwarf/MJRefresh [arm64, 0.021773 seconds]:
+2017-11-10 07:13:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-10 07:13:14 +0000  Processing symbols for Masonry.framework
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/Masonry.framework' '--link-dest' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  5 files to consider
+2017-11-10 07:13:14 +0000  Masonry.framework/
+2017-11-10 07:13:14 +0000  Masonry.framework/_CodeSignature/
+2017-11-10 07:13:14 +0000  
+2017-11-10 07:13:14 +0000  sent 219 bytes  received 32 bytes  502.00 bytes/sec
+total size is 389.06K  speedup is 1587.24
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '--link-dest' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  37 files to consider
+2017-11-10 07:13:14 +0000  ./
+2017-11-10 07:13:14 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+HOTELINTRO.app.dSYM/
+HOTELINTRO.app.dSYM/Contents/
+HOTELINTRO.app.dSYM/Contents/Resources/
+HOTELINTRO.app.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJRefresh.framework.dSYM/
+MJRefresh.framework.dSYM/Contents/
+MJRefresh.framework.dSYM/Contents/Resources/
+MJRefresh.framework.dSYM/Contents/Resources/DWARF/
+Masonry.framework.dSYM/
+Masonry.framework.dSYM/Contents/
+2017-11-10 07:13:14 +0000  Masonry.framework.dSYM/Contents/Resources/
+Masonry.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+2017-11-10 07:13:14 +0000  
+2017-11-10 07:13:14 +0000  sent 1.25K bytes  received 242 bytes  2.96K bytes/sec
+total size is 13.83M  speedup is 9554.12
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Symbols' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Masonry.framework.dSYM/Contents/Resources/Dwarf/Masonry'
+2017-11-10 07:13:14 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Masonry.framework.dSYM/Contents/Resources/Dwarf/Masonry [armv7, 0.041414 seconds]:
+/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Masonry.framework.dSYM/Contents/Resources/Dwarf/Masonry [arm64, 0.041414 seconds]:
+2017-11-10 07:13:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-10 07:13:14 +0000  Processing symbols for SDWebImage.framework
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/SDWebImage.framework' '--link-dest' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  5 files to consider
+2017-11-10 07:13:14 +0000  SDWebImage.framework/
+2017-11-10 07:13:14 +0000  SDWebImage.framework/_CodeSignature/
+2017-11-10 07:13:14 +0000  
+2017-11-10 07:13:14 +0000  sent 225 bytes  received 32 bytes  514.00 bytes/sec
+total size is 678.23K  speedup is 2702.38
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '--link-dest' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  37 files to consider
+2017-11-10 07:13:14 +0000  ./
+2017-11-10 07:13:14 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+HOTELINTRO.app.dSYM/
+HOTELINTRO.app.dSYM/Contents/
+HOTELINTRO.app.dSYM/Contents/Resources/
+HOTELINTRO.app.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJRefresh.framework.dSYM/
+MJRefresh.framework.dSYM/Contents/
+MJRefresh.framework.dSYM/Contents/Resources/
+MJRefresh.framework.dSYM/Contents/Resources/DWARF/
+Masonry.framework.dSYM/
+Masonry.framework.dSYM/Contents/
+2017-11-10 07:13:14 +0000  Masonry.framework.dSYM/Contents/Resources/
+Masonry.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+2017-11-10 07:13:14 +0000  
+2017-11-10 07:13:14 +0000  sent 1.25K bytes  received 242 bytes  2.96K bytes/sec
+total size is 13.83M  speedup is 9554.12
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Symbols' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/SDWebImage.framework.dSYM/Contents/Resources/Dwarf/SDWebImage'
+2017-11-10 07:13:14 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/SDWebImage.framework.dSYM/Contents/Resources/Dwarf/SDWebImage [armv7, 0.052774 seconds]:
+/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/SDWebImage.framework.dSYM/Contents/Resources/Dwarf/SDWebImage [arm64, 0.052774 seconds]:
+2017-11-10 07:13:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-10 07:13:14 +0000  Processing symbols for HOTELINTRO.app
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app' '--link-dest' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  72 files to consider
+2017-11-10 07:13:14 +0000  HOTELINTRO.app/
+2017-11-10 07:13:14 +0000  HOTELINTRO.app/Base.lproj/
+HOTELINTRO.app/Base.lproj/LaunchScreen.storyboardc/
+HOTELINTRO.app/Frameworks/
+2017-11-10 07:13:14 +0000  HOTELINTRO.app/Frameworks/AFNetworking.framework/
+HOTELINTRO.app/Frameworks/AFNetworking.framework/_CodeSignature/
+HOTELINTRO.app/Frameworks/MBProgressHUD.framework/
+HOTELINTRO.app/Frameworks/MBProgressHUD.framework/_CodeSignature/
+HOTELINTRO.app/Frameworks/MJRefresh.framework/
+HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/
+HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/
+HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/
+HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/
+HOTELINTRO.app/Frameworks/MJRefresh.framework/_CodeSignature/
+HOTELINTRO.app/Frameworks/Masonry.framework/
+HOTELINTRO.app/Frameworks/Masonry.framework/_CodeSignature/
+HOTELINTRO.app/Frameworks/SDWebImage.framework/
+HOTELINTRO.app/Frameworks/SDWebImage.framework/_CodeSignature/
+HOTELINTRO.app/_CodeSignature/
+HOTELINTRO.app/en.lproj/
+HOTELINTRO.app/zh-Hans.lproj/
+2017-11-10 07:13:14 +0000  HOTELINTRO.app/zh-Hans.lproj/._LaunchScreen.strings
+2017-11-10 07:13:14 +0000           171 100%    0.00kB/s    0:00:00         171 100%    0.00kB/s    0:00:00 (xfer#1, to-check=8/72)
+2017-11-10 07:13:14 +0000  HOTELINTRO.app/zh-Hant.lproj/
+2017-11-10 07:13:14 +0000  HOTELINTRO.app/zh-Hant.lproj/._LaunchScreen.strings
+         171 100%  166.99kB/s    0:00:002017-11-10 07:13:14 +0000           171 100%  166.99kB/s    0:00:00 (xfer#2, to-check=3/72)
+2017-11-10 07:13:14 +0000  
+sent 2.77K bytes  received 196 bytes  5.93K bytes/sec
+total size is 26.87M  speedup is 9282.51
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '--link-dest' '/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/dSYMs/' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny'
+2017-11-10 07:13:14 +0000  building file list ... 
+2017-11-10 07:13:14 +0000   0 files...2017-11-10 07:13:14 +0000  37 files to consider
+2017-11-10 07:13:14 +0000  ./
+2017-11-10 07:13:14 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+HOTELINTRO.app.dSYM/
+HOTELINTRO.app.dSYM/Contents/
+HOTELINTRO.app.dSYM/Contents/Resources/
+HOTELINTRO.app.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJRefresh.framework.dSYM/
+MJRefresh.framework.dSYM/Contents/
+MJRefresh.framework.dSYM/Contents/Resources/
+MJRefresh.framework.dSYM/Contents/Resources/DWARF/
+Masonry.framework.dSYM/
+Masonry.framework.dSYM/Contents/
+Masonry.framework.dSYM/Contents/Resources/
+Masonry.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+2017-11-10 07:13:14 +0000  SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+2017-11-10 07:13:14 +0000  
+2017-11-10 07:13:14 +0000  sent 1.25K bytes  received 242 bytes  2.96K bytes/sec
+total size is 13.83M  speedup is 9554.12
+2017-11-10 07:13:14 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:14 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Symbols' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/HOTELINTRO.app.dSYM/Contents/Resources/Dwarf/HOTELINTRO'
+2017-11-10 07:13:14 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/HOTELINTRO.app.dSYM/Contents/Resources/Dwarf/HOTELINTRO [armv7, 0.073054 seconds]:
+/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/HOTELINTRO.app.dSYM/Contents/Resources/Dwarf/HOTELINTRO [arm64, 0.073054 seconds]:
+2017-11-10 07:13:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-10 07:13:14 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2017-11-10 07:13:14 +0000  Processing step: IDEDistributionAppThinningStep
+2017-11-10 07:13:14 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-11-10 07:13:14 +0000  Processing step: IDEDistributionODRStep
+2017-11-10 07:13:14 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-11-10 07:13:14 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd7cc13c110 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fd7d12cc250:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/AFNetworking.framework'>'>
+2017-11-10 07:13:14 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd7b22e9530 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fd7c6fdc330:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MBProgressHUD.framework'>'>
+2017-11-10 07:13:14 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd7cfe016f0 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fd7b1f67010:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MJRefresh.framework'>'>
+2017-11-10 07:13:14 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd7b1d777a0 'org.cocoapods.Masonry' '<DVTFilePath:0x7fd7cfe620e0:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/Masonry.framework'>'>
+2017-11-10 07:13:14 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd7d07f17a0 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fd7d1311610:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/SDWebImage.framework'>'>
+2017-11-10 07:13:14 +0000  Running /usr/bin/xattr '-cr' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app'
+2017-11-10 07:13:15 +0000  /usr/bin/xattr exited with 0
+2017-11-10 07:13:15 +0000  Processing step: IDEDistributionCodesignStep
+2017-11-10 07:13:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd7cc13c110 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fd7d12cc250:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/AFNetworking.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd7b22f4dc0>: {
+}
+2017-11-10 07:13:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd7cc13c110 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fd7d12cc250:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/AFNetworking.framework'>'>: {
+}
+2017-11-10 07:13:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd7cc13c110 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fd7d12cc250:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/AFNetworking.framework'>'> to: /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlementsy5hfC7
+2017-11-10 07:13:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C88AFC046441968B772F4EC362D6B6BBEC3A65F9' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlementsy5hfC7' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/AFNetworking.framework'
+2017-11-10 07:13:15 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/AFNetworking.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.AFNetworking]
+2017-11-10 07:13:15 +0000  /usr/bin/codesign exited with 0
+2017-11-10 07:13:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd7b22e9530 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fd7c6fdc330:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MBProgressHUD.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd7b223ae00>: {
+}
+2017-11-10 07:13:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd7b22e9530 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fd7c6fdc330:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MBProgressHUD.framework'>'>: {
+}
+2017-11-10 07:13:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd7b22e9530 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fd7c6fdc330:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MBProgressHUD.framework'>'> to: /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlementseZaPQO
+2017-11-10 07:13:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C88AFC046441968B772F4EC362D6B6BBEC3A65F9' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlementseZaPQO' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/MBProgressHUD.framework'
+2017-11-10 07:13:15 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/MBProgressHUD.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MBProgressHUD]
+2017-11-10 07:13:15 +0000  /usr/bin/codesign exited with 0
+2017-11-10 07:13:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd7cfe016f0 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fd7b1f67010:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MJRefresh.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd7ce794e90>: {
+}
+2017-11-10 07:13:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd7cfe016f0 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fd7b1f67010:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MJRefresh.framework'>'>: {
+}
+2017-11-10 07:13:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd7cfe016f0 'org.cocoapods.MJRefresh' '<DVTFilePath:0x7fd7b1f67010:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/MJRefresh.framework'>'> to: /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlementsMWmR54
+2017-11-10 07:13:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C88AFC046441968B772F4EC362D6B6BBEC3A65F9' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlementsMWmR54' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework'
+2017-11-10 07:13:15 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MJRefresh]
+2017-11-10 07:13:15 +0000  /usr/bin/codesign exited with 0
+2017-11-10 07:13:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd7b1d777a0 'org.cocoapods.Masonry' '<DVTFilePath:0x7fd7cfe620e0:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/Masonry.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd7b22fa870>: {
+}
+2017-11-10 07:13:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd7b1d777a0 'org.cocoapods.Masonry' '<DVTFilePath:0x7fd7cfe620e0:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/Masonry.framework'>'>: {
+}
+2017-11-10 07:13:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd7b1d777a0 'org.cocoapods.Masonry' '<DVTFilePath:0x7fd7cfe620e0:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/Masonry.framework'>'> to: /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlements9QlGwo
+2017-11-10 07:13:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C88AFC046441968B772F4EC362D6B6BBEC3A65F9' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlements9QlGwo' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/Masonry.framework'
+2017-11-10 07:13:15 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/Masonry.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Masonry]
+2017-11-10 07:13:15 +0000  /usr/bin/codesign exited with 0
+2017-11-10 07:13:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd7d07f17a0 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fd7d1311610:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/SDWebImage.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd7cdaa6fc0>: {
+}
+2017-11-10 07:13:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd7d07f17a0 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fd7d1311610:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/SDWebImage.framework'>'>: {
+}
+2017-11-10 07:13:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd7d07f17a0 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fd7d1311610:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app/Frameworks/SDWebImage.framework'>'> to: /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlementsDj57sZ
+2017-11-10 07:13:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C88AFC046441968B772F4EC362D6B6BBEC3A65F9' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlementsDj57sZ' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/SDWebImage.framework'
+2017-11-10 07:13:15 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app/Frameworks/SDWebImage.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SDWebImage]
+2017-11-10 07:13:15 +0000  /usr/bin/codesign exited with 0
+2017-11-10 07:13:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd7b22ec5b0 'com.entertainment.jinxia' '<DVTFilePath:0x7fd7b1c6bff0:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd7b2252950>: {
+}
+2017-11-10 07:13:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd7b22ec5b0 'com.entertainment.jinxia' '<DVTFilePath:0x7fd7b1c6bff0:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app'>'>: {
+    "application-identifier" = "6WW46SSNLR.com.entertainment.jinxia";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 6WW46SSNLR;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "6WW46SSNLR.com.entertainment.jinxia"
+    );
+}
+2017-11-10 07:13:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd7b22ec5b0 'com.entertainment.jinxia' '<DVTFilePath:0x7fd7b1c6bff0:'/Users/xin/Library/Developer/Xcode/Archives/2017-11-10/HOTELINTRO 2017-11-10 下午3.12.xcarchive/Products/Applications/HOTELINTRO.app'>'> to: /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlements2xUbBe
+2017-11-10 07:13:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C88AFC046441968B772F4EC362D6B6BBEC3A65F9' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/entitlements2xUbBe' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app'
+2017-11-10 07:13:15 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app: replacing existing signature
+2017-11-10 07:13:15 +0000  /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root/Payload/HOTELINTRO.app: signed app bundle with Mach-O universal (armv7 arm64) [com.entertainment.jinxia]
+2017-11-10 07:13:15 +0000  /usr/bin/codesign exited with 0
+2017-11-10 07:13:15 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-11-10 07:13:15 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-10 07:13:15 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-10 07:13:15 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-10 07:13:15 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-10 07:13:15 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-10 07:13:15 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-10 07:13:15 +0000  Processing step: IDEDistributionCreateIPAStep
+2017-11-10 07:13:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Symbols' '--link-dest' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root'
+2017-11-10 07:13:15 +0000  building file list ... 
+2017-11-10 07:13:15 +0000   0 files...2017-11-10 07:13:15 +0000  13 files to consider
+2017-11-10 07:13:15 +0000  Symbols/
+2017-11-10 07:13:15 +0000  
+sent 709 bytes  received 26 bytes  1.44K bytes/sec
+total size is 3.48M  speedup is 4960.53
+2017-11-10 07:13:15 +0000  /usr/bin/rsync exited with 0
+2017-11-10 07:13:15 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root' '/var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Packages/HOTELINTRO.ipa'
+2017-11-10 07:13:15 +0000  >>> Copying /var/folders/px/df5nwyrj2kgcbfffgchz5vxc0000gn/T/XcodeDistPipeline.fny/Root 
+2017-11-10 07:13:15 +0000  copying file ./Payload/HOTELINTRO.app/_CodeSignature/CodeResources ... 
+2017-11-10 07:13:15 +0000  18194 bytes for ./Payload/HOTELINTRO.app/_CodeSignature/CodeResources
+2017-11-10 07:13:15 +0000  copying file ./Payload/HOTELINTRO.app/AppIcon20x20@2x.png ... 
+5234 bytes for ./Payload/HOTELINTRO.app/AppIcon20x20@2x.png
+copying file ./Payload/HOTELINTRO.app/AppIcon20x20@3x.png ... 
+2017-11-10 07:13:15 +0000  11169 bytes for ./Payload/HOTELINTRO.app/AppIcon20x20@3x.png
+2017-11-10 07:13:15 +0000  copying file ./Payload/HOTELINTRO.app/AppIcon29x29@2x.png ... 
+2017-11-10 07:13:15 +0000  10368 bytes for ./Payload/HOTELINTRO.app/AppIcon29x29@2x.png
+copying file ./Payload/HOTELINTRO.app/AppIcon29x29@3x.png ... 
+2017-11-10 07:13:15 +0000  22049 bytes for ./Payload/HOTELINTRO.app/AppIcon29x29@3x.png
+2017-11-10 07:13:15 +0000  copying file ./Payload/HOTELINTRO.app/AppIcon40x40@2x.png ... 
+2017-11-10 07:13:15 +0000  18901 bytes for ./Payload/HOTELINTRO.app/AppIcon40x40@2x.png
+2017-11-10 07:13:15 +0000  copying file ./Payload/HOTELINTRO.app/AppIcon40x40@3x.png ... 
+2017-11-10 07:13:15 +0000  40127 bytes for ./Payload/HOTELINTRO.app/AppIcon40x40@3x.png
+2017-11-10 07:13:15 +0000  copying file ./Payload/HOTELINTRO.app/AppIcon60x60@2x.png ... 
+2017-11-10 07:13:15 +0000  40127 bytes for ./Payload/HOTELINTRO.app/AppIcon60x60@2x.png
+2017-11-10 07:13:15 +0000  copying file ./Payload/HOTELINTRO.app/AppIcon60x60@3x.png ... 
+2017-11-10 07:13:15 +0000  84223 bytes for ./Payload/HOTELINTRO.app/AppIcon60x60@3x.png
+2017-11-10 07:13:15 +0000  copying file ./Payload/HOTELINTRO.app/archived-expanded-entitlements.xcent ... 
+386 bytes for ./Payload/HOTELINTRO.app/archived-expanded-entitlements.xcent
+copying file ./Payload/HOTELINTRO.app/Assets.car ... 
+2017-11-10 07:13:16 +0000  2158408 bytes for ./Payload/HOTELINTRO.app/Assets.car
+2017-11-10 07:13:16 +0000  copying file ./Payload/HOTELINTRO.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+115 bytes for ./Payload/HOTELINTRO.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/HOTELINTRO.app/embedded.mobileprovision ... 
+7432 bytes for ./Payload/HOTELINTRO.app/embedded.mobileprovision
+copying file ./Payload/HOTELINTRO.app/en.lproj/InfoPlist.strings ... 
+2017-11-10 07:13:16 +0000  78 bytes for ./Payload/HOTELINTRO.app/en.lproj/InfoPlist.strings
+copying file ./Payload/HOTELINTRO.app/en.lproj/Localizable.strings ... 
+680 bytes for ./Payload/HOTELINTRO.app/en.lproj/Localizable.strings
+copying file ./Payload/HOTELINTRO.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2017-11-10 07:13:16 +0000  2202 bytes for ./Payload/HOTELINTRO.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+copying file ./Payload/HOTELINTRO.app/Frameworks/AFNetworking.framework/AFNetworking ... 
+2017-11-10 07:13:16 +0000  1033744 bytes for ./Payload/HOTELINTRO.app/Frameworks/AFNetworking.framework/AFNetworking
+copying file ./Payload/HOTELINTRO.app/Frameworks/AFNetworking.framework/Info.plist ... 
+2017-11-10 07:13:16 +0000  746 bytes for ./Payload/HOTELINTRO.app/Frameworks/AFNetworking.framework/Info.plist
+copying file ./Payload/HOTELINTRO.app/Frameworks/Masonry.framework/_CodeSignature/CodeResources ... 
+2017-11-10 07:13:16 +0000  2202 bytes for ./Payload/HOTELINTRO.app/Frameworks/Masonry.framework/_CodeSignature/CodeResources
+copying file ./Payload/HOTELINTRO.app/Frameworks/Masonry.framework/Info.plist ... 
+736 bytes for ./Payload/HOTELINTRO.app/Frameworks/Masonry.framework/Info.plist
+copying file ./Payload/HOTELINTRO.app/Frameworks/Masonry.framework/Masonry ... 
+2017-11-10 07:13:16 +0000  424288 bytes for ./Payload/HOTELINTRO.app/Frameworks/Masonry.framework/Masonry
+2017-11-10 07:13:16 +0000  copying file ./Payload/HOTELINTRO.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/HOTELINTRO.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Payload/HOTELINTRO.app/Frameworks/MBProgressHUD.framework/Info.plist ... 
+748 bytes for ./Payload/HOTELINTRO.app/Frameworks/MBProgressHUD.framework/Info.plist
+copying file ./Payload/HOTELINTRO.app/Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2017-11-10 07:13:16 +0000  336352 bytes for ./Payload/HOTELINTRO.app/Frameworks/MBProgressHUD.framework/MBProgressHUD
+2017-11-10 07:13:16 +0000  copying file ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/_CodeSignature/CodeResources ... 
+3917 bytes for ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/_CodeSignature/CodeResources
+copying file ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/Info.plist ... 
+741 bytes for ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/Info.plist
+copying file ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh ... 
+2017-11-10 07:13:16 +0000  452576 bytes for ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh
+2017-11-10 07:13:16 +0000  copying file ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png ... 
+1033 bytes for ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png
+copying file ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings ... 
+1372 bytes for ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings
+copying file ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings ... 
+2017-11-10 07:13:16 +0000  1194 bytes for ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+copying file ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings ... 
+773 bytes for ./Payload/HOTELINTRO.app/Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+copying file ./Payload/HOTELINTRO.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2017-11-10 07:13:16 +0000  2202 bytes for ./Payload/HOTELINTRO.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+copying file ./Payload/HOTELINTRO.app/Frameworks/SDWebImage.framework/Info.plist ... 
+742 bytes for ./Payload/HOTELINTRO.app/Frameworks/SDWebImage.framework/Info.plist
+copying file ./Payload/HOTELINTRO.app/Frameworks/SDWebImage.framework/SDWebImage ... 
+2017-11-10 07:13:16 +0000  722272 bytes for ./Payload/HOTELINTRO.app/Frameworks/SDWebImage.framework/SDWebImage
+2017-11-10 07:13:16 +0000  copying file ./Payload/HOTELINTRO.app/HOTELINTRO ... 
+2017-11-10 07:13:16 +0000  2408000 bytes for ./Payload/HOTELINTRO.app/HOTELINTRO
+copying file ./Payload/HOTELINTRO.app/Info.plist ... 
+2017-11-10 07:13:16 +0000  1713 bytes for ./Payload/HOTELINTRO.app/Info.plist
+copying file ./Payload/HOTELINTRO.app/LaunchImage-1100-2436h@3x.png ... 
+2017-11-10 07:13:16 +0000  7033265 bytes for ./Payload/HOTELINTRO.app/LaunchImage-1100-2436h@3x.png
+copying file ./Payload/HOTELINTRO.app/LaunchImage-700-568h@2x.png ... 
+2017-11-10 07:13:16 +0000  2001836 bytes for ./Payload/HOTELINTRO.app/LaunchImage-700-568h@2x.png
+copying file ./Payload/HOTELINTRO.app/LaunchImage-700@2x.png ... 
+2017-11-10 07:13:16 +0000  1701763 bytes for ./Payload/HOTELINTRO.app/LaunchImage-700@2x.png
+2017-11-10 07:13:16 +0000  copying file ./Payload/HOTELINTRO.app/LaunchImage-800-667h@2x.png ... 
+2017-11-10 07:13:16 +0000  2713133 bytes for ./Payload/HOTELINTRO.app/LaunchImage-800-667h@2x.png
+copying file ./Payload/HOTELINTRO.app/LaunchImage-800-Portrait-736h@3x.png ... 
+2017-11-10 07:13:16 +0000  7054127 bytes for ./Payload/HOTELINTRO.app/LaunchImage-800-Portrait-736h@3x.png
+copying file ./Payload/HOTELINTRO.app/PkgInfo ... 
+2017-11-10 07:13:16 +0000  8 bytes for ./Payload/HOTELINTRO.app/PkgInfo
+copying file ./Payload/HOTELINTRO.app/zh-Hans.lproj/InfoPlist.strings ... 
+81 bytes for ./Payload/HOTELINTRO.app/zh-Hans.lproj/InfoPlist.strings
+copying file ./Payload/HOTELINTRO.app/zh-Hans.lproj/LaunchScreen.strings ... 
+1 bytes for ./Payload/HOTELINTRO.app/zh-Hans.lproj/LaunchScreen.strings
+copying file ./Payload/HOTELINTRO.app/zh-Hans.lproj/Localizable.strings ... 
+278 bytes for ./Payload/HOTELINTRO.app/zh-Hans.lproj/Localizable.strings
+copying file ./Payload/HOTELINTRO.app/zh-Hant.lproj/InfoPlist.strings ... 
+81 bytes for ./Payload/HOTELINTRO.app/zh-Hant.lproj/InfoPlist.strings
+copying file ./Payload/HOTELINTRO.app/zh-Hant.lproj/LaunchScreen.strings ... 
+1 bytes for ./Payload/HOTELINTRO.app/zh-Hant.lproj/LaunchScreen.strings
+copying file ./Payload/HOTELINTRO.app/zh-Hant.lproj/Localizable.strings ... 
+2017-11-10 07:13:16 +0000  278 bytes for ./Payload/HOTELINTRO.app/zh-Hant.lproj/Localizable.strings
+copying file ./Symbols/082A0362-C8DC-37C7-B23A-DA2B30B54831.symbols ... 
+2017-11-10 07:13:16 +0000  300448 bytes for ./Symbols/082A0362-C8DC-37C7-B23A-DA2B30B54831.symbols
+copying file ./Symbols/246F20B1-BE67-31E7-B024-3616131FB9E3.symbols ... 
+2017-11-10 07:13:16 +0000  126568 bytes for ./Symbols/246F20B1-BE67-31E7-B024-3616131FB9E3.symbols
+copying file ./Symbols/2A9B0CF0-3938-31FB-93FC-A416AEFCFB1B.symbols ... 
+2017-11-10 07:13:16 +0000  348528 bytes for ./Symbols/2A9B0CF0-3938-31FB-93FC-A416AEFCFB1B.symbols
+copying file ./Symbols/45AB5919-9562-3949-9594-AB18EA01E419.symbols ... 
+2017-11-10 07:13:16 +0000  125592 bytes for ./Symbols/45AB5919-9562-3949-9594-AB18EA01E419.symbols
+copying file ./Symbols/65ADDEB0-4392-3A01-B0B9-983A0DEBC3E3.symbols ... 
+2017-11-10 07:13:16 +0000  710608 bytes for ./Symbols/65ADDEB0-4392-3A01-B0B9-983A0DEBC3E3.symbols
+copying file ./Symbols/71645DB5-B7DF-3C6D-A63D-2A6B45C47799.symbols ... 
+2017-11-10 07:13:16 +0000  245472 bytes for ./Symbols/71645DB5-B7DF-3C6D-A63D-2A6B45C47799.symbols
+copying file ./Symbols/934DD37D-7AD6-39A6-AE7B-F746C6324062.symbols ... 
+2017-11-10 07:13:16 +0000  417608 bytes for ./Symbols/934DD37D-7AD6-39A6-AE7B-F746C6324062.symbols
+copying file ./Symbols/9A962528-8483-34B5-86DF-6A6C56F07386.symbols ... 
+2017-11-10 07:13:16 +0000  803272 bytes for ./Symbols/9A962528-8483-34B5-86DF-6A6C56F07386.symbols
+copying file ./Symbols/A7320A16-C198-318D-B513-0A22E3EC96C9.symbols ... 
+2017-11-10 07:13:16 +0000  159024 bytes for ./Symbols/A7320A16-C198-318D-B513-0A22E3EC96C9.symbols
+copying file ./Symbols/AD43A724-7AFD-3A71-8C4E-5DAEA69B007D.symbols ... 
+2017-11-10 07:13:17 +0000  179648 bytes for ./Symbols/AD43A724-7AFD-3A71-8C4E-5DAEA69B007D.symbols
+copying file ./Symbols/BF1CD75F-7CD8-308A-9FDB-BAFACD9DA92E.symbols ... 
+2017-11-10 07:13:17 +0000  134816 bytes for ./Symbols/BF1CD75F-7CD8-308A-9FDB-BAFACD9DA92E.symbols
+copying file ./Symbols/EFE09593-57FF-34A0-B2E3-F322300270A1.symbols ... 
+2017-11-10 07:13:17 +0000  94408 bytes for ./Symbols/EFE09593-57FF-34A0-B2E3-F322300270A1.symbols
+2017-11-10 07:13:17 +0000  /usr/bin/ditto exited with 0
+2017-11-10 07:13:17 +0000  Processing step: IDEDistributionCreateManifestStep
+2017-11-10 07:13:17 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

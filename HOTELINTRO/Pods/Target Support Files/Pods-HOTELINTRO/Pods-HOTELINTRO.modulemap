@@ -1,0 +1,6 @@
+framework module Pods_HOTELINTRO {
+  umbrella header "Pods-HOTELINTRO-umbrella.h"
+
+  export *
+  module * { export * }
+}

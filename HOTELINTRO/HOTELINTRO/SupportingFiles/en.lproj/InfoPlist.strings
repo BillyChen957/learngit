@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  HOTELINTRO
+
+  Created by xin on 2017/11/10.
+  Copyright © 2017年 pasaaa. All rights reserved.
+*/
+
+CFBundleDisplayName = "HotelInfo";

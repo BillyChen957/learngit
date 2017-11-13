@@ -1,0 +1,20 @@
+//
+//  Hotel.pch
+//  HOTELINTRO
+//
+//  Created by xin on 2017/11/3.
+//  Copyright © 2017年 pasaaa. All rights reserved.
+//
+
+#ifndef Hotel_pch
+#define Hotel_pch
+
+#import "Macros.h"
+#import "UIImage+color.h"
+#import "Colors.h"
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import "Common.h"
+#import "UIView+leoAdd.h"
+#import <BmobSDK/Bmob.h>
+#endif /* Hotel_pch */

@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  HOTELINTRO
+
+  Created by xin on 2017/11/10.
+  Copyright © 2017年 pasaaa. All rights reserved.
+*/
+/*************按键类*******************/
+"登录" = "Login";
+"注册" = "Register";
+"退出" = "Exit";
+"搜索" = "Search";
+"收藏" = "Collect";
+"取消收藏" = "Cancel the collection";
+"取消" = "Cancle";
+"酒店信息" = "Hotel Info";
+"赌场介绍" = "Casino Info";
+"我的收藏" = "My Collection";
+
+
+
+
+/**************语句类*******************/
+"请输入酒店名称" = "Please enter the name of the hotel";
+"注册成功" = "Registered successfully";
+"注册失败" = "Registration failed";
+"登录成功" = "Login successful";
+"登录失败" = "Login failed";
+"暂无数据" = "Temporarily no data";
+"暂无收藏记录" = "No collection record";
+"请先登录" = "Please login first";
+"请您先登录,再查看收藏记录~" = "Please login first and then check the collection record";
